@@ -24,7 +24,7 @@ This repository contains code for training a GPT-2 language model using a smalle
 
 ### Usage
 1. **Training the Model (`train_llm_mini.py`):**
-   - This script loads the WikiText-2 dataset and uses a smaller subset of 1000 samples for training.
+   - This script loads the WikiText-2 dataset and uses a smaller subset of 1000 samples for training, as the full dataset from huggingface was taking about 35 hours because I do not have a powerful GPU.
    - It initializes the GPT-2 tokenizer and model, and then tokenizes the dataset.
    - Training arguments such as output directory, number of epochs, batch size, and logging steps are defined.
    - The model is trained using the Trainer class from the Transformers library.
