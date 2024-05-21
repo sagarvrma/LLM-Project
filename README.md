@@ -34,7 +34,7 @@ This repository contains code for training a GPT-2 language model using a smalle
    ```bash
    python train_llm_mini.py
    ```
-
+This may take 30-40 minutes, depending on the specs of your computer. 
 2. **Text Generation (`minitester.py`):**
    - This script loads the trained GPT-2 model and tokenizer.
    - It sets the model to evaluation mode and defines a function for text generation.
