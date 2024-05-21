@@ -52,3 +52,7 @@ This repository contains code for training a GPT-2 language model using a smalle
 ### Note
 - Adjust the training arguments in `train_llm_mini.py` according to your computing resources and training requirements.
 - The generated text in `minitester.py` may vary based on the prompt and the training data used.
+
+
+### Video Proof: 
+I've attached an MP4 file of the prompt taking an input and completing the sentence. 
