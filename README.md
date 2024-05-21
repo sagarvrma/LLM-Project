@@ -13,7 +13,7 @@ This repository contains code for training a GPT-2 language model using a smalle
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/llm-vscode-project.git
+   git clone https://github.com/sagarvrma/LLM-Project.git
    cd llm-vscode-project
    ```
 
